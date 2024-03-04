@@ -6,6 +6,7 @@ public class Producto {
 	private String tipo;
 	private double valorCompra;
 	private double valorVenta;
+	private int cantidadProducto;
 
 	public String getNombre() {
 		return this.nombre;
@@ -37,6 +38,14 @@ public class Producto {
 
 	public void setValorVenta(double valorVenta) {
 		this.valorVenta = valorVenta;
+	}
+
+	public int getCantidadProducto() {
+		return this.cantidadProducto;
+	}
+
+	public void setCantidadProducto(int cantidadProducto) {
+		this.cantidadProducto = cantidadProducto;
 	}
 
 }

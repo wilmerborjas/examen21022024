@@ -4,7 +4,7 @@ public class Persona {
 
 	private String nombre;
 	private String apellido;
-	private int direccion;
+	private String direccion;
 	private int celular;
 
 	public String getNombre() {
@@ -24,11 +24,11 @@ public class Persona {
 		this.apellido = apellido;
 	}
 
-	public int getDireccion() {
+	public String getDireccion() {
 		return this.direccion;
 	}
 
-	public void setDireccion(int direccion) {
+	public void setDireccion(String direccion) {
 		this.direccion = direccion;
 	}
 
